@@ -1,4 +1,3 @@
-/* Rollup creates the browser version of the polyfill and ponyfill. */
 import path from 'path';
 import copy from 'rollup-plugin-copy';
 import nodeResolve from 'rollup-plugin-node-resolve';

@@ -4,6 +4,10 @@
   "description": "@sentry/browser and @sentry/node in one library",
   "main": "dist/main.js",
   "browser": "dist/browser.js",
+  "scripts": {
+    "precommit": "npm run -s build",
+    "build": "rollup -c"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malectro/universal-sentry.git"
