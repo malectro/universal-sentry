@@ -1,9 +1,13 @@
 {
-  "name": "universal-sentry",
+  "name": "@malectro/universal-sentry",
   "version": "1.0.0",
   "description": "@sentry/browser and @sentry/node in one library",
   "main": "dist/main.js",
   "browser": "dist/browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malectro/universal-sentry.git"
+  },
   "author": "Kyle Warren",
   "license": "MIT",
   "private": false,
